@@ -10,10 +10,14 @@ E-commerce simple project built with React Native.
 🔗 **APK Link**: [link](https://expo.dev/accounts/erika.sempana/projects/mobile-version-v1/builds/00737926-7d27-4f30-ad1c-0596cf7453c6)
 
 
-![Tampilan 1](assets/images/1.jpeg "Ukuran: 500 KB")
-![Tampilan 2](assets/images/2.jpeg "Ukuran: 500 KB")
-![Tampilan 3](assets/images/3.jpeg "Ukuran: 500 KB")
-![Tampilan 4](assets/images/4.jpeg "Ukuran: 500 KB")
+<p align="center">
+  <img src="assets/images/1.jpeg" alt="Tampilan 1" width="300"/>
+  <img src="assets/images/2.jpeg" alt="Tampilan 2" width="300"/>
+</p>
+<p align="center">
+  <img src="assets/images/3.jpeg" alt="Tampilan 3" width="300"/>
+  <img src="assets/images/4.jpeg" alt="Tampilan 4" width="300"/>
+</p>
 
 ---
 
