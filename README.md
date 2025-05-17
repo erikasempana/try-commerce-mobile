@@ -7,7 +7,7 @@ A mobile application built using **React Native** with **Expo Router**, designed
 
 E-commerce simple project built with React Native.
 
-🔗 **APK Link**: [link](https://try-commerce-five.vercel.app)
+🔗 **APK Link**: [link](https://expo.dev/accounts/erika.sempana/projects/mobile-version-v1/builds/00737926-7d27-4f30-ad1c-0596cf7453c6)
 
 ---
 
