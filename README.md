@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 📱 Mobile Version App
 
-## Get started
+A mobile application built using **React Native** with **Expo Router**, designed to provide a modern, modular, and fast development experience.
 
-1. Install dependencies
+# Try Commerce Mobile
 
-   ```bash
-   npm install
-   ```
+E-commerce simple project built with React Native.
 
-2. Start the app
+🔗 **APK Link**: [link](https://try-commerce-five.vercel.app)
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. Clone Repository
 ```bash
-npm run reset-project
+git clone https://github.com/erikasempana/try-commerce-mobile.git
+cd try-commerce-mobile
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
 
-## Learn more
+### 3. Start the App
+```bash
+npm run start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📦 Available Scripts
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- `npm run android` – Run on Android device/emulator
+- `npm run ios` – Run on iOS device/simulator
+- `npm run web` – Run on web browser
+- `npm run lint` – Run linter
+- `npm run reset-project` – Reset cache, node_modules, and clear build
 
-## Join the community
+## 🧱 Tech Stack
 
-Join our community of developers creating universal apps.
+- **React Native 0.79.2**
+- **Expo ~53.0.9**
+- **React 19**
+- **TypeScript ~5.8.3**
+- **Expo Router ~5.0.6**
+- **Navigation:** `@react-navigation/native`, `bottom-tabs`, `elements`
+- **UI:** `expo-image`, `expo-blur`, `react-native-picker-select`
+- **Utils:** `expo-haptics`, `expo-splash-screen`, `expo-status-bar`, `expo-constants`
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📁 Project Structure
+
+```
+.
+├── app/                 # Pages and routes handled by expo-router
+├── components/          # Reusable UI components
+├── scripts/             # Project utility scripts (e.g., reset-project.js)
+├── ios/                 # iOS project config
+├── android/             # Android project config
+├── package.json         # Dependencies and scripts
+└── README.md
+```
+
+## 🔐 Notes
+
+- Ensure to open `.xcworkspace` (not `.xcodeproj`) for iOS builds.
+- Hermes engine adds a script phase during pod install - inspect if needed.
+- If you're using Expo Go, features like `expo-router` might require EAS build.
+
+## 🛠 Dev Dependencies
+
+- **ESLint**
+- **@types/react**
+- **@babel/core**
+
+## ✅ Status
+
+Actively under development. Initial version `1.0.0`.
+
+---
+
+Built with ❤️ by Erika Sempana.
+# try-commerce-mobile
